@@ -6,9 +6,9 @@ for (let i = 1;i <= 16; i++){
     console.log(holidays[i-1])
 }
 
-i = 1
+i = 0
 // while文で配列を順に呼び出す
-while (i <= 16) {
-    console.log(holidays[i-1])
+while (i <= 15) {
+    console.log(holidays[i])
     i++
 }
