@@ -1,6 +1,6 @@
 // //アロー関数で定義 
 // const secondPower = (num) => {
-//     console.log(num ** 2)
+//     return num ** 2
 // }
 
 // Functionで定義
