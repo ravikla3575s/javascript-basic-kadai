@@ -5,7 +5,7 @@
 
 // Functionで定義
 function secondPower(num){
-    console.log(num ** 2)
+    return num ** 2
 }
 // 引数100で戻り値を求める
-secondPower(100)
+console.log(secondPower(100))
