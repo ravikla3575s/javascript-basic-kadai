@@ -1,8 +1,13 @@
-const childh2A =document.getElementById('text');
-const childh2B =document.getElementById('text-after');
+const text =document.getElementById('text');
 const btn = document.getElementById('btn');
+let clickCount = 0;
 
 btn.addEventListener('click',() => {
-    childh2A.style.display = 'none';
-    childh2B.style.display = 'inline-block';
-});
+    clickCount++;
+    if (clickCount % 2 == 0) {
+        text.textContent = 'ボタンをクリックしてください';
+    } else if(clickCount == 1){
+        text.textContent = 'ボタンをクリックしました'
+    }else{
+        text.textContent = 'ボタンを' + clickCount + '回クリックしました';
+}});
